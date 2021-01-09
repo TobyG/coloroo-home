@@ -63,8 +63,8 @@
   }
 
   .logo {
-    width: 5.5rem;
-    height: 5.5rem;
+    width: 8rem; // 5.5rem;
+    height: 8rem; // 5.5rem;
     line-height: 5.5rem;
     border: solid _size(border-width) _palette(border);
     border-radius: 100%;
@@ -139,6 +139,7 @@
           font-family: _font(family);
           border: none;
           box-shadow: none;
+          // margin-right: 0px !important;
 
           &:hover,
           &:focus {

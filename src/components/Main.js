@@ -62,18 +62,12 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Feedback</h2>
+          <h2 className="major">Join the team</h2>
           {/*<span className="image main">
             <img src={pic02} alt="" />
           </span>
           */}
-          <p>
-            Do you have feedback or want to suggest new features? You can do so by 
-            visiting <a href="https://coloroo.hearken.io" target="_blank">https://coloroo.hearken.io</a>.
-          </p>
-          <p>
-            Alternatively, you can drop us an email at <a href="mailto:info@coloroo.dev">info@coloroo.dev</a>
-          </p>
+          <p>Do you want to help us build the next great extension? Interested in the project? Contact us with the field you are specialized in. We would love to hear from you!</p>
           {close}
         </article>
 
@@ -84,16 +78,16 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">About</h2>
+          <h2 className="major">FAQ</h2>
           {/*<span className="image main">
             <img src={pic03} alt="" />
           </span>
           */}
-          <h3>Description</h3>
+          <h3>What is Coloroo?</h3>
           <p>
             Coloroo features an in-built color picker / eye-dropper as well as color palette 
             manager. Share groups of colors with friends so they can import them. Download palettes as CSV 
-            or export them to SVG to use them in your next project. Please note that Coloroo is currently 
+            or export them to SVG to use them in your next project. Coloroo is currently 
             in beta development and does not yet have all features implemented.
           </p>
           
@@ -101,6 +95,13 @@ class Main extends React.Component {
           <p>
             Coloroo is free to use and doesn't require a login. If you want to save your settings,
             you will need to create a free account. 
+          </p>
+
+             <h3>Can I request a feature?</h3>
+          <p>
+            Do you have feedback or want to suggest new features? You can do so by 
+            visiting <a href="https://coloroo.hearken.io" target="_blank">https://coloroo.hearken.io</a>.
+            Alternatively, you can drop us an email at <a href="mailto:info@coloroo.dev">info@coloroo.dev</a>
           </p>
           
           {close}
@@ -114,7 +115,7 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Contact</h2>
-          <form method="post" action="#">
+          {/*<form method="post" action="#">
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
@@ -135,9 +136,12 @@ class Main extends React.Component {
                 <input type="reset" value="Reset" />
               </li>
             </ul>
-          </form>
+        </form>*/}
+         <p>
+
+         </p>
           <ul className="icons">
-            <li>
+            {/*<li>
               <a
                 href="https://twitter.com/HuntaroSan"
                 className="icon fa-twitter"
@@ -146,18 +150,18 @@ class Main extends React.Component {
               </a>
             </li>
             <li>
-              <a href="https://codebushi.com" className="icon fa-facebook">
+              <a href="https://codebushi.com" className="icon fa-instagram">
                 <span className="label">Facebook</span>
               </a>
-            </li>
+            </li>*/}
             <li>
-              <a href="https://codebushi.com" className="icon fa-instagram">
-                <span className="label">Instagram</span>
+              <a href="mailto:info@coloroo.dev" className="icon fa-envelope">
+                <span className="label">E-Mail</span>
               </a>
             </li>
             <li>
               <a
-                href="https://github.com/codebushi/gatsby-starter-dimension"
+                href="https://github.com/coloroo" target="_blank"
                 className="icon fa-github"
               >
                 <span className="label">GitHub</span>
