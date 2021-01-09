@@ -141,15 +141,15 @@ class Main extends React.Component {
 
          </p>
           <ul className="icons">
-            {/*<li>
+           <li>
               <a
-                href="https://twitter.com/HuntaroSan"
+                href="https://twitter.com/Coloroo1"
                 className="icon fa-twitter"
               >
                 <span className="label">Twitter</span>
               </a>
             </li>
-            <li>
+             {/*<li>
               <a href="https://codebushi.com" className="icon fa-instagram">
                 <span className="label">Facebook</span>
               </a>
