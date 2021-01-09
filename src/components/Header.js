@@ -11,11 +11,13 @@ import wg from '../images/logo_whitegray.png'
 import wg_svg from '../images/bw_svg.svg'
 import zoom from '../images/zoom.png'
 import zoomwg from '../images/zoom_wg.svg'
+import pic2 from '../images/favicon2.png'
+import site_logo from '../images/site_logo.svg'
 
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
     <div className="logo">
-      <img className="logo" src={zoomwg}></img>
+      <img className="logo" src={site_logo}></img>
       {/*<span className="icon fa-eyedropper"></span>*/}
     </div>
     <div className="content">
