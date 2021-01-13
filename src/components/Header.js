@@ -1,17 +1,5 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import logo from '../images/logo1.png'
-import logosvg from '../images/logo_white.svg'
-import logotrans from '../images/logo_trans.png'
-import logosvg2 from '../images/logo_svg2.svg'
-import logopng2 from '../images/logo_png2.png'
-import logobluesvg from '../images/blue_svg.svg'
-import bw from '../images/logo_bw.svg'
-import wg from '../images/logo_whitegray.png'
-import wg_svg from '../images/bw_svg.svg'
-import zoom from '../images/zoom.png'
-import zoomwg from '../images/zoom_wg.svg'
-import pic2 from '../images/favicon2.png'
 import site_logo from '../images/site_logo.svg'
 
 const Header = props => (

@@ -1,8 +1,6 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import pic01 from '../images/pic01.jpg'
-import pic02 from '../images/pic02.jpg'
-import pic03 from '../images/pic03.jpg'
+
 
 class Main extends React.Component {
   render() {
@@ -30,7 +28,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Intro</h2>
           <span className="image main">
-            <img src={pic01} alt="" />
+            {/*<img src={pic01} alt="" /> */}
           </span>
           <p>
             Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
