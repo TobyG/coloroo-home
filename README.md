@@ -1,4 +1,9 @@
-# gatsby-starter-dimension
+# Gatsby Website for Coloroo
+
+based on a template by codebushi https://www.gatsbyjs.com/starters/codebushi/gatsby-starter-dimension
+
+
+---------------------------------------
 
 **This is a starter for Gatsby.js V2.**
 
